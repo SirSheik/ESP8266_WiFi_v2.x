@@ -185,7 +185,7 @@ Data can be posted using HTTP or HTTPS. For HTTPS the Emoncms server must suppor
 
 #### OpenEVSE Status via MQTT
 
-OpenEVSE can post its status values (e.g. amp, wh, temp1, temp2, temp3, pilot, status) to an MQTT server. Data will be published as a sub-topic of base topic.E.g `<base-topic>/amp`. Data is published to MQTT every 30s.
+OpenEVSE can post its status values (e.g. amp, wh, temp1, temp2, temp3, pilot, state) to an MQTT server. Data will be published as a sub-topic of base topic.E.g `<base-topic>/amp`. Data is published to MQTT every 30s.
 
 MQTT setup is pre-populated with OpenEnergyMonitor [emonPi default MQTT server credentials](https://guide.openenergymonitor.org/technical/credentials/#mqtt).
 
